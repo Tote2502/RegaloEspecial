@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#FFFDF9">
+    <title>Feliz Cumpleaños, mi princesita hermosa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main id="app-container">
+        <section id="screen-login" class="screen active">
+            <div class="login-card">
+                <h1 class="title-serif">Diseñado para tí, mi amor</h1>
+                <p class="subtitle">El dia de tu cumpleaños.</p>
+                <div class="input-group">
+                    <input type="text" id="password-input" placeholder="Día/Mes/Año" autocomplete="off">
+                    <button id="login-btn" class="btn-primary" aria-label="Ingresar">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="icon-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <p id="login-error" class="error-msg hidden-smooth">Inténtalo de nuevo, mi amor. Sé que tu corazón
+                    recuerda la fecha exacta...</p>
+            </div>
+            <div id="hearts-container" class="hearts-container"></div>
+        </section>
+        <section id="screen-portal" class="screen hidden">
+            <header class="app-header">
+                <h2 class="header-title">Para Mi Reina</h2>
+                <button id="nav-to-album" class="btn-ghost">Ver Álbum</button>
+            </header>
+            <div class="content-scroll">
+                <article class="love-letter card">
+                    <p class="greeting">Feliz Cumpleaños, Mi Vida,</p>
+                    <p>Hoy se celebra el día exacto en que el mundo comenzó a tener un motivo, una razón para sonreir,
+                        tu eres una luz que ilumina cada instante de nuestras vidas. Llegar a tus 20 años es recordar el
+                        valor de cada
+                        una de tus sonrisas, la firmeza de tus pasos y esa capacidad tan tuya de llenar de calidez y
+                        vida cualquier lugar en el que estás. Tu existencia es el verdadero motivo de celebración,
+                        una combinación perfecta de inteligencia, fuerza y gracia que merece ser reconocida,
+                        admirada y festivada por el simple hecho de ser exactamente quien eres.</p>
+                    <blockquote class="quantum-love">
+                        <span id="quantum-text"></span>
+                    </blockquote>
+                    <p>Eres mi paz, mi refugio y mi mayor inspiración. Todo de ti es perfecto a mis ojos, eres y siempre
+                        serás el amor de mi vida.</p>
+                    <p class="signature">Con amor infinito,<br>Tu novio.</p>
+                </article>
+                <div class="emergency-section card">
+                    <h3 class="emergency-title">¿Necesitas sonreír?</h3>
+                    <p class="emergency-subtitle">Presiona el botón cada vez que quieras saber por qué te amo.</p>
+                    <button id="btn-emergency" class="btn-secondary pulse">Cosas que amo de tí</button>
+                    <div id="reason-display" class="reason-display hidden-smooth">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="screen-album" class="screen hidden">
+            <header class="app-header">
+                <button id="nav-to-portal" class="btn-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                </button>
+                <h2 class="header-title">Nuestros Momentos</h2>
+                <div style="width: 24px;"></div>
+            </header>
+            <div class="content-scroll">
+                <div id="gallery-grid" class="gallery-grid">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
