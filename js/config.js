@@ -1,15 +1,23 @@
 const config = {
     // La contraseña de acceso.
-    TARGET_DATE: '070524',
+    TARGET_DATE: '220626',
 
-    LOVE_DECLARATION: `Si intentara medir cuánto te amo, el universo observable se 
-                        quedaría pequeño. Dicen que las estrellas son los motores más brillantes 
-                        del cosmos, pero ninguna supernova en la historia del tiempo tiene el 
-                        destello, la calidez y la magia que tienen tus ojos cuando me miras. Eres 
-                        mi gravedad, el centro de mi propio universo; ese lugar seguro donde el 
-                        tiempo se detiene y donde, sin importar lo caótico que sea el mundo exterior,
-                        siempre encuentro mi paz. Te amo desde el primer destello de nuestra historia, 
-                        por siempre y para siempre.`,
+    LOVE_DECLARATION: `Cada rincón del universo observable parece 
+                        pequeño cuando se compara con la inmensidad 
+                        de la perfección de tu mente y la fuerza de tu espíritu. 
+                        Dicen que las estrellas son los motores más 
+                        brillantes del cosmos, pero ninguna 
+                        en la historia del tiempo tiene ni tendrá la inteligencia, la 
+                        autenticidad y la magia que desprendes tú con 
+                        tu sola existencia, por esa sencilla razón las 
+                        estrellas no brillan tanto como tú. Eres un centro de energía 
+                        propia, un ser deslumbrante que, con su firmeza,
+                        su inteligencia y su valentía, desafía 
+                        cualquier caos del mundo exterior. Tu vida tiene 
+                        un resplandor único y un valor incalculable por lo que eres, 
+                        por tu capacidad de brillar y por la huella tan bonita 
+                        que dejas en el tiempo. Celebrar tu existencia es celebrar 
+                        el fenómeno más hermoso del universo, hoy y por siempre.`,
 
     REASONS: [
         "Amo la forma en que tus ojos brillan cuando hablas de lo que te apasiona; iluminan mi mundo entero.",
